@@ -1,0 +1,422 @@
+html {
+  font-size: 15px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ","Meiryo"sans-serif;
+  color: rgb(34,34,34);
+}
+
+head {
+  display: none;
+}
+
+body {
+  font-family: 'Noto Sans Jp',sans-serif;
+  font-weight: 400;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  display: block;
+}
+
+body,div,p,ul,li,th,td,img,
+h1,h2,h3,h4,h5,h6,select {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+}
+
+.site-header {
+  width: 100%;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.content-width {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.contents-tidy {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.header-logo > .header-logo-pc{
+  display: none;
+  width: auto;
+  height: 20px;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+
+nav {
+  display: block;
+}
+
+.header-nav .header-nav-hamburger {
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 21px;
+  z-index: 100;
+}
+
+.header-nav .header-nav-list {
+  top: 52px;
+  overflow-y: scroll;
+  position: fixed;
+  left: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  transition: ▶ tranform 0.5s;
+  z-index: 99;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.header-nav-list .contents-tidy {
+  align-items: center;
+  padding: 20px 0;
+  display: block;
+}
+
+.conetnts-tidy {
+  justify-content: space-between;
+}
+
+ul,ol {
+  list-style: none;
+  
+}
+
+.header-nav .header-nav-item >
+span:first-child {
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-family: 'Lato',sans-serif;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:  #222;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Noto Sans JP',sans-serif;
+}
+
+.header-nav .header-nav-item >
+span: last-child {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #f79314;
+  letter-spacing: 2px;
+}
+
+li {
+  display: list-item;
+}
+
+.header-nav .header-nav-item >
+span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-nav .header-nav-item  {
+  display: block;
+  padding: 20px 0;
+}
+
+.header-nav .header-nav-list >
+li+li {
+  margin-left: 0;
+}
+
+.header-nav-list > li+
+li: last-child {
+  margin-left: 0;
+}
+
+.header-button-outline {
+  margin-top: 20px;
+}
+.header-button {
+  margin: 0 auto;
+  width: 250px;
+}
+
+div {
+  display: block;
+}
+.link-button.menu {
+  height: 60px;
+  font-size: 16px;
+}
+
+.link-button:visited {
+  color:  #fff;
+}
+
+.link-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:  #f79314;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+}
+
+.header-nav .header-nav-last {
+  top:52px;
+}
+
+.header-nav .header-nav-list {
+  overflow-y: scroll;
+  position: fixed;
+  left: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  transition: transform 0.5s;
+  z-index: 99;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.site-header .site-header-inner
+  *: last-child {
+    display: inline-flex;
+}
+
+.content-width {
+  max-width: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.content-tidy {
+ display: flex;
+ justify-content: space-between;
+}
+
+site-header {
+  width: 100%;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color:  #fff;
+  z-index: 10;
+}
+
+main {
+  padding-top: 52px;
+  display: block;
+}
+
+.section-top-hero {
+  padding-top: 258px;
+  padding-bottom: 12px;
+  background-image: url(top-hero-logo.png);
+}
+
+.section-top-hero {
+  background-size: auto 100%;
+  background-position: right 0;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: block;
+}
+
+.top-hero-box {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.top-hero-box .top-hero-heading >
+img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.top-hero-box .top-hero-text {
+  font-size: 15px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.7;
+}
+
+.top-hero-box .top-hero-text >
+span {
+  color:  #f79314;
+}
+
+top-hero-box  {
+  margin-top: 20px;
+}
+
+p {
+  display: block;
+}
+
+link-button .no-subtitle {
+  font-size: 16px;
+}
+
+.link-button: visited {
+  color:  #fff;
+}
+
+.top-hero-box .No1-notation img {
+  width: 120px;
+  height: 120px;
+}
+
+.top-hero-box .No1notation {
+  top: -118px;
+  left: -56px;
+  right:  0;
+  margin: 0;
+  position: absolute;
+}
+section-top-hero .proviso {
+  padding:24px;
+  color:  #888;
+  font-size: 10px;
+  max-width: 512px;
+  padding-top: 24px;
+}
+.proviso p {
+  background-color: inherit;
+  color: inherit;
+  padding: 4px;
+}
+p {
+  line-height: 1.5px;
+}
+.main-section .top-about {
+  background-color:  #f79314;
+  padding-top: 45px;
+}
+.main-section {
+  padding-bottom: 60px;
+}
+section {
+  display: block;
+}
+.banner-for-students-pc {
+  display: none;
+}
+.banner-for-students {
+  width: 100%;
+  margin-bottom: 50px;
+}
+top-about .contents-tidy {
+  align-items: center;
+}
+top-about-content {
+  flex-direction: column;
+  width: 100%;
+}
+.about-text, .top-about-button
+{
+  width: 100%;
+}
+.about-text {
+  color:  #fff;
+  width: 53%;
+}
+.about-texth2 {
+  letter-spacing: 1px;
+  font-size: 26px;
+  text-align: center;
+}
+.text-about h2 > span {
+  font-family: 'Lato',Sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+text-about p {
+  font-weight: 700;
+  margin-top: 15px;
+  line-height: 2.3;
+}
+.about-text+.top-about-button {
+  width: 250px;
+}
+.link-button.inversion {
+  color:  #f79314;
+  background-color:  #fff;
+  margin-right: 10px;
+}
+.link-buotton {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+.link-button span:last-child {
+  font-size: 12px;
+}
+.about-text+.top-about-button {
+  margin-top: 40px;
+  width: 250px;
+}
+.main-section .top-about {
+  background-color:  #f79314;
+  padding-top: 45px;
+}
